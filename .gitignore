@@ -1,0 +1,30 @@
+# Visual Studio
+.vs/
+*.user
+*.VC.db
+*.VC.opendb
+
+# Build folders
+Debug/
+Release/
+x64/
+x86/
+
+# Compiled objects
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.exp
+*.ilk
+*.pdb
+
+# MSBuild
+*.log
+*.tlog
+*.lastbuildstate
+*.recipe
+
+# Clang/GCC
+*.dSYM/

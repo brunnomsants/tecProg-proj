@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="tecProg-proj/tecProg-proj.vcxproj" Id="8da0c7df-2837-4bd1-b6da-01256986a38a" />
+</Solution>
