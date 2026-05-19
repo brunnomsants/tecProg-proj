@@ -12,7 +12,7 @@ int main()
     {
         sf::Event event;
 
-        while (window.pollEvent(event))
+        while (window.pollEvent(even))
         {
             if (event.type == sf::Event::Closed)
                 window.close();
@@ -25,3 +25,5 @@ int main()
 
     return 0;
 }
+
+//teste
