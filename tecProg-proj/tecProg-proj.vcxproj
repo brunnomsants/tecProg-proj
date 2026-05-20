@@ -153,9 +153,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Player.cpp" />
     <ClCompile Include="src\Principal.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\Player.h" />
     <ClInclude Include="include\Principal.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
