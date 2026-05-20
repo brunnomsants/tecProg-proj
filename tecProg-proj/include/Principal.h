@@ -5,6 +5,7 @@
 #include <thread>
 #include "Player.h"
 #include "Platform.h"
+#include "IceSpike.h"
 
 namespace Alaska {
 	class Principal {
@@ -12,6 +13,7 @@ namespace Alaska {
 		sf::RenderWindow window;
 		Player::Player player;
 		Obstacles::Platform terrain;
+		Obstacles::IceSpike spike;
 	public:
 		Principal();
 		~Principal();
