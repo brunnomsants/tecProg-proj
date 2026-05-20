@@ -153,10 +153,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Platform.cpp" />
     <ClCompile Include="src\Player.cpp" />
     <ClCompile Include="src\Principal.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\Platform.h" />
     <ClInclude Include="include\Player.h" />
     <ClInclude Include="include\Principal.h" />
   </ItemGroup>
