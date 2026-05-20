@@ -152,11 +152,11 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\Jogo.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Principal.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\Jogo.h" />
+    <ClInclude Include="include\Principal.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

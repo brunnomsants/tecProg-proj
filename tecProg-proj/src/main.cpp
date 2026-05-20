@@ -1,8 +1,9 @@
 #include <iostream>
-#include "../include/Jogo.h"
+#include "../include/Principal.h"
+using namespace Alaska;
 int main()
 {
-	Jogo jogo;
+	Principal Principal;
 
     return 0;
 }
