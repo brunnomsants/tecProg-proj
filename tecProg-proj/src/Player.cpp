@@ -4,7 +4,6 @@ using namespace Alaska::Player;
 
 Player::Player(const sf::Vector2f pos, const sf::Vector2f size): body(sf::Vector2f(size)), vel(sf::Vector2f(0.1f, 0.1f)) {
 	body.setPosition(pos);
-	body.setFillColor(sf::Color::Green);
 	createPlayer();
 }
 Player::Player(const sf::RectangleShape body): body(body), vel(sf::Vector2f(0.1f, 0.1f)) {
@@ -19,8 +18,11 @@ void Player::createPlayer() {
 	vel = sf::Vector2f(0.1f, 0.1f);
 	body.setFillColor(sf::Color::Cyan);
 }
-const sf::RectangleShape Player::getBody() const {
+const sf::RectangleShape& Player::getBody() const {
 	return body;
+}
+void Player::setPosition(float x, float y) {
+	body.setPosition(x, y);
 }
 void Player::move() {
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)) {

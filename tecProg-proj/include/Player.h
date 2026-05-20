@@ -17,8 +17,8 @@ namespace Alaska {
 			Player(const sf::RectangleShape body);
 			Player();
 			~Player();
-
-			const sf::RectangleShape getBody() const;
+			void setPosition(float x, float y);
+			const sf::RectangleShape& getBody() const;
 			void move();
 
 		};
